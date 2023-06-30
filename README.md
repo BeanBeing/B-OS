@@ -7,3 +7,7 @@ clone this repository
 run make
 then run the .img file located in build folder in a virtual-machine/hypervisor like qemu, vmware, virtualbox, etc...
 ```
+# If you have QEMU/KVM then run:
+```
+make; qemu-system-i386 -fda build/main_floppy.img
+```
